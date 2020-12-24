@@ -1,0 +1,152 @@
+/* css used for designing the property details */
+
+.header-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);   
+    border-radius: 25px; 
+    margin-top: 100px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.heading-tags{
+    color:blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.boxesF , .boxesS{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    padding: 2px;
+    align-items:flex-start;
+    justify-content: space-around;
+    width: 600px;
+    background-color: transparent;
+
+}
+.box-1 , .box-2 , .box-3 , .box-4{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);   
+    border-radius: 25px; 
+}
+.purchase-box , .valuation-box, .cashflow-box, .Req-box, .sum-box, .qa-box, .info-box{
+    display: flex;
+    flex-direction: row;
+    /* border-color: black; */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    height: 325px;
+    /* background-color: #fff; */
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);  
+    border-radius: 25px; 
+}
+.investment-box{
+    display: flex;
+    flex-direction: row;
+    /* border-color: black; */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    height: 600px;
+    /* background-color: #fff; */
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);  
+    border-radius: 25px; 
+}
+.financial-box{
+    display: flex;
+    flex-direction: row;
+    /* border-color: black; */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    height: 100px;
+    /* background-color: #fff; */
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);  
+    border-radius: 25px; 
+}
+
+.header-purchase , .valuation-header, .cashflow-header, .investment-header, .financial-header, .Req-header, .sum-header, .qa-header, .info-purchase{
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-radius: 1px;
+    align-items: center;
+    justify-content: center;
+    height: 5px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    color:black;
+    font-size: 25px;
+    background-color: transparent;
+}
+.purchase-box-keys , .valuation-box-keys, .cashflow-box-keys, .investment-box-keys, .financial-box-keys, .Req-box-keys, .sum-box-keys, .qa-box-keys, .info-box-keys{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 550px;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 35px;
+}
+.purchase-box-values , .valuation-box-values, .cashflow-box-values, .investment-box-values, .financial-box-values, .Req-box-values, .sum-box-values, .qa-box-values, .info-box-values{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 550px;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: 2px;
+    color: black;
+    padding: 35px;
+}
+.pie-chart{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.page-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f5f7fa;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    background-image: url("https://media.npr.org/assets/img/2019/04/30/marriott-homes-villas-2f070ea33c9015d01950ca571c3c44674f2d380b-s800-c85.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.line{
+    border-bottom:1px solid blue;
+}

@@ -1,0 +1,11 @@
+/* added some css here for navBar */
+
+.nav-menu active{
+    display: flex;
+    flex-direction: row;
+
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+}
